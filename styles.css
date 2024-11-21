@@ -20,7 +20,6 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box; 
-        letter-spacing: -.20%;
         line-height: 150%;
         font-family: var(--font-family);
     }
