@@ -1,4 +1,4 @@
-    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 
     :root {
@@ -14,6 +14,12 @@
         --size-preset-1: 1.5rem;
         --size-preset-2: 1rem;
         --size-preset-3: 0.875rem;
+
+        --font-weight-regular: 400;
+        --font-weight-medium: 500;
+        --font-weight-bold: 700;
+        --font-weight-extrabold: 800;
+
     }
 
     * {
@@ -56,7 +62,7 @@
 
     .card__content {
         font-size: var(--size-preset-3);
-        font-weight: 500;
+        font-weight: var(--font-weight-medium);
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -65,7 +71,7 @@
 
     .card__category {
         width: fit-content;
-        font-weight: 700;
+        font-weight: var(--font-weight-extrabold);
         background-color: var(--yellow);
         padding: 4px 12px;
         border-radius: 4px;
@@ -73,8 +79,7 @@
 
     .card__title {
         font-size: var(--size-preset-1);
-        font-weight: 800;
-        letter-spacing: -1px;
+        font-weight: var(--font-weight-extrabold);
         color: var(--gray_950)
     }
 
@@ -85,7 +90,6 @@
 
     .card__copy {
         font-size: var(--size-preset-2);
-        font-weight: 300;
         color: var(--gray_500);
     }
         
@@ -94,7 +98,7 @@
         display: inline-flex;
         align-items: center;
         font-size: var(--size-preset-3);
-        font-weight: var(--weight-bold);
+        font-weight: 800;
         gap: 12px;
     }
 
