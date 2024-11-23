@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/blog-preview-card-KbeO-IEfPO)
-- Live Site URL: [Add live site URL here](https://blog-preview-card-chi-five.vercel.app/)
+- Solution URL: [Blog preview card solution](https://www.frontendmentor.io/solutions/blog-preview-card-KbeO-IEfPO)
+- Live Site URL: https://blog-preview-card-chi-five.vercel.app/
 
 ## My process
 
